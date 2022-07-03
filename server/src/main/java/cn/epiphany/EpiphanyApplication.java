@@ -1,18 +1,18 @@
-package cn.epiphany.user;
+package cn.epiphany;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Justin Chen
- * @date 2022/7/2 9:47 PM
- * @desription User application
+ * @date 2022/7/3 11:13 AM
+ * @desription Epiphany application
  */
 @SpringBootApplication
-public class UserApplication {
+public class EpiphanyApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
+        SpringApplication.run(EpiphanyApplication.class, args);
     }
 
 }

@@ -1,8 +1,8 @@
 server:
   port: 10214
   servlet:
-    context-path: /user
+    context-path: /epiphany/api
 
 spring:
   application:
-    name: user
+    name: epiphany-server

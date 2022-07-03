@@ -1,4 +1,4 @@
-package cn.epiphany.user.web.controller;
+package cn.epiphany.web.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,17 +6,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author Justin Chen
- * @date 2022/7/2 9:55 PM
- * @desription 用户 controller
+ * @date 2022/7/3 11:16 AM
+ * @desription Epiphany controller
  */
 @RestController
 @RequestMapping
-public class UserController {
+public class EpiphanyController {
 
-    @GetMapping("/test")
-    public String test() {
-        System.out.println("test");
-        return "test";
+    @GetMapping("/qi")
+    public String qi() {
+        System.out.println("qi");
+        return "琪琪小活跃💕";
     }
 
 }
